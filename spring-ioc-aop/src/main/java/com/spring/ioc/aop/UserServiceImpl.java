@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
-@Service
+@Service("userService")
 @Scope("prototype")
 public class UserServiceImpl implements UserService{
     @Resource
